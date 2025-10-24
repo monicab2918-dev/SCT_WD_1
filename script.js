@@ -1,4 +1,4 @@
-// Navbar color and shadow change on scroll
+
 window.addEventListener("scroll", () => {
   const navbar = document.getElementById("navbar");
   if (window.scrollY > 50) {
@@ -10,7 +10,7 @@ window.addEventListener("scroll", () => {
 
 
 
-// Menu item details
+
 const items = {
   latte: { name: "Vanilla Latte", desc: "Smooth espresso with steamed milk and vanilla syrup.", price: "₹180", discount: "10% off" },
   espresso: { name: "Classic Espresso", desc: "Rich, bold espresso brewed to perfection.", price: "₹150", discount: "5% off" },
@@ -32,7 +32,8 @@ function closeDetails() {
   document.getElementById("item-details").classList.add("hidden");
 }
 
-// Form submissions (for demo)
+
+
 document.getElementById("booking-form").addEventListener("submit", e => {
   e.preventDefault();
   alert("🎉 Table booked successfully!");
